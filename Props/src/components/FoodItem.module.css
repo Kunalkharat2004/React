@@ -1,0 +1,9 @@
+.list{
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style-type:decimal;
+}
+.buyButton{
+    float: right;
+    font-size: 1.1rem;
+}

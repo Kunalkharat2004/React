@@ -1,0 +1,15 @@
+.inputField{
+    width: 85%;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    margin: 10px 0px;
+}
+.foodInputContainer{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addButton{
+    font-size: 1.1rem;
+}

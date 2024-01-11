@@ -1,0 +1,12 @@
+.buttonsContainer{
+    width: 80%;
+    padding: 25px;
+    background-color: #252d44 ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.para-slogun,.para-currTime{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
