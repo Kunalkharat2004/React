@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+.appContainer {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.sidebar {
+  width: 25vw;
+  height: 100vh;
+}
+
+.contentContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex: 1;
+  position: relative;
+  overflow: auto;
+}
+
+.form{
+  padding: 20px 70px;
+}
+.card-img {
+  object-fit: cover;
+  height: 200px;
+}

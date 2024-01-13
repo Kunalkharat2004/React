@@ -1,0 +1,25 @@
+.cardContainer{
+    width: 18rem;
+    height: 550px;
+    position: relative;
+    /* background-color: red; */
+    border-radius: 1.2rem;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.463);
+}
+.cardContainer img{
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+.cardContent{
+    padding: 15px 10px;
+}
+.hashtag{
+    margin: 5px;
+}
+.reaction{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+.deletePost{
+    cursor: pointer;
+}
