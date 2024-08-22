@@ -40,3 +40,12 @@ html, body {
   object-fit: cover;
   height: 200px;
 }
+.message{
+  margin: 30px;
+}
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

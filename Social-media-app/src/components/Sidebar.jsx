@@ -1,7 +1,11 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 
 
-function Sidebar({handleSelect}) {
+function Sidebar() {
+
+ 
+
   return (
     <div className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar" style={{height:"100vh"}}>            
     <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -10,17 +14,17 @@ function Sidebar({handleSelect}) {
     </a>
     <hr/>
     <ul className="nav nav-pills flex-column mb-auto">
-      <li className="nav-item" onClick={()=>handleSelect("Home")}>
-        <a href="#" className="nav-link  text-white" aria-current="page">
+      <li className="nav-item" >
+        <Link to="/" className={`nav-link text-white`} aria-current="page">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#home"></use></svg>
           Home
-        </a>
+        </Link>
       </li>
-      <li  onClick={()=>handleSelect("Create post")}>
-        <a href="#" className="nav-link text-white">
+      <li>
+        <Link to="/create-post" className={`nav-link text-white`}>
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#speedometer2"></use></svg>
           Create a Post
-        </a>
+        </Link>
       </li>
     </ul>
     <hr/>

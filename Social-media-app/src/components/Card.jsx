@@ -10,8 +10,6 @@ function Card({PostDetails}) {
 
   return (
    <div className={styles.cardContainer}>
-  <img src={PostDetails.imgUrl}  className="card-img-top card-img" alt="..."/>
-  
   <div className={`card-body ${styles.cardContent}`}>
 
     <h5 className="card-title">{PostDetails.title}
@@ -20,8 +18,8 @@ function Card({PostDetails}) {
     <MdDelete />
   </span>
     </h5>
-    <p className="card-text">{PostDetails.Description}</p>
-    {PostDetails.hashtags.map((hastag)=><span key={hastag} className={`badge text-bg-primary ${styles.hashtag}`}>{hastag}</span>)}
+    <p className="card-text">{PostDetails.body}</p>
+    {PostDetails.tags.map((hastag)=><span key={hastag} className={`badge text-bg-primary ${styles.hashtag}`}>{hastag}</span>)}
 
     <div className={` ${styles.reaction} alert alert-light`} role="alert">
   Liked by <b>{PostDetails.reactions}</b> people`s
